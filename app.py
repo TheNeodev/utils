@@ -1179,7 +1179,7 @@ with gr.Blocks(title="RVC WebUI", theme="gradio/soft") as app:
                 sr2 = gr.Radio(
                     label=i18n("目标采样率"),
                     choices=["32k", "40k", "48k"],
-                    value="40k",
+                    value="32k",
                     interactive=True,
                 )
                 if_f0_3 = gr.Radio(
